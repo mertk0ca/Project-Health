@@ -15,17 +15,27 @@ Project Health, etkileşimli seçim sistemi, dinamik sahne yapısı ve dallanabi
 Oyunun temel yapısı, Unity oyun motoru ile sahne bazlı kurgulanmıştır. Her klinik adım (örneğin anamnez, muayene, test isteme, tedavi planlama) ayrı bir sahne olarak tanımlanmış ve kullanıcı seçimlerine göre otomatik olarak geçiş yapılmaktadır.
 
 Oyuncu, her aşamada yönlendirici butonlar aracılığıyla karar verir. Bu seçimler:
+
 •	Hangi testi göreceğini (örneğin: sadece kan sayımı veya tüm testler),
+
 •	Hangi fizik muayenelerin yapılacağını (karın mı, cilt mi, eklem mi?),
+
 •	Hangi tanıyı koyacağını,
+
 •	Hangi tedavi ve izlem planını seçeceğini belirler.
 
 Oyun içinde bazı tıbbi testler yalnızca yazı ile değil; görsel paneller ve etkileşimli mini oyunlar aracılığıyla sunulmuştur:
+
 •	Kalprotektin testi: Damlatıcıyı sürükleyip test kağıdına bırakma
+
 •	Kolonoskopi: Kamera içinden bağırsak görüntüleri
+
 •	Biyopsi sonucu: Metin penceresinde patoloji raporu gösterimi
+
 •	Ultrason: Cihaz hareket ettikçe sırayla vasküler yapı, lenf nodları ve kalın duvarlar görünür
+
 •	Mikroskop: Hücre görünümü animasyonu
+
 •	Kan Sayımı: Sayısal veri penceresi
 Bu paneller, oyuncunun testi gerçekten uyguluyormuş gibi hissetmesini ve aynı zamanda eğlenmesini sağlar.
 
