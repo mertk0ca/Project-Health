@@ -96,3 +96,7 @@ Bu sayede oyuncu:
 - Sağlık yönetimi öğrencileri  
 
 ---
+
+## Oyun
+
+Oyunu denemek için tıklayabilirsiniz: [itch.io](https://mertkoca.itch.io/project-health)
