@@ -1,88 +1,98 @@
-Project Health - Klinik Simülasyon Oyunu
+# Project Health - Klinik Simülasyon Oyunu
 
-Project Health, sağlık bilimleri öğrencilerinin klinik karar verme ve hasta değerlendirme becerilerini geliştirmeyi amaçlayan bir dijital simülasyon oyunudur. Oyuncular, Crohn hastalığına sahip bir vakayı adım adım değerlendirerek, gerçek bir klinik senaryoda çeşitli kararlar alırlar. Bu oyun, tıp, hemşirelik ve sağlık yönetimi öğrencilerine yönelik olarak tasarlanmıştır.
+**Project Health**, sağlık bilimleri öğrencilerinin klinik karar verme ve hasta değerlendirme becerilerini geliştirmeyi amaçlayan bir dijital simülasyon oyunudur.  
+Oyuncular, Crohn hastalığına sahip bir vakayı adım adım değerlendirerek, gerçek bir klinik senaryoda çeşitli kararlar alırlar.  
+Bu oyun tıp, hemşirelik ve sağlık yönetimi öğrencilerine yönelik olarak tasarlanmıştır.
 
-İçerik
+---
 
-Hasta Değerlendirme Süreci: Anamnez alma, fizik muayene, uygun tetkikleri isteme, tanı koyma ve tedavi planlama aşamalarını içerir.
+## İçerik
 
-Interaktif ve Etkileşimli Oyun Yapısı: Her aşama, oyuncunun seçimlerine göre dinamik olarak ilerler.
+- **Hasta Değerlendirme Süreci:**  
+  Anamnez alma, fizik muayene, uygun tetkikleri isteme, tanı koyma ve tedavi planlama aşamalarını içerir.
 
-Mini Oyunlar ve Test Panelleri: Tıbbi testlerin görsel ve etkileşimli sunumları ile desteklenen uygulamalı eğitim.
+- **Interaktif ve Etkileşimli Oyun Yapısı:**  
+  Her aşama, oyuncunun seçimlerine göre dinamik olarak ilerler.
 
-Oyun Senaryosu
+- **Mini Oyunlar ve Test Panelleri:**  
+  Tıbbi testlerin görsel ve etkileşimli sunumlarıyla desteklenen uygulamalı eğitim sağlar.
 
-Oyuncu, 35 yaşındaki Semih Yılmaz adlı bir hastanın hekim rolünü üstlenir. Hasta, karın ağrısı, ishal, kilo kaybı ve yorgunluk gibi semptomlarla başvurmaktadır. Oyuncunun hedefi, bu semptomlar doğrultusunda doğru bir şekilde:
+---
 
-Anamnez almak,
+## Oyun Senaryosu
 
-Fizik muayene yapmak,
+Oyuncu, 35 yaşındaki **Semih Yılmaz** adlı bir hastanın hekim rolünü üstlenir.  
+Hasta, karın ağrısı, ishal, kilo kaybı ve yorgunluk şikayetleriyle başvurur.  
+Oyuncunun hedefi, bu semptomlar doğrultusunda doğru bir şekilde:
 
-Uygun tetkikleri istemek,
+1. Anamnez almak  
+2. Fizik muayene yapmak  
+3. Uygun tetkikleri istemek  
+4. Doğru tanıyı koymak  
+5. Etkili bir tedavi planı oluşturmak  
 
-Doğru tanıyı koymak,
+---
 
-Etkili bir tedavi planı oluşturmak.
+## Özellikler
 
-Teknoloji ve Araçlar
+### 1. Interaktif Seçim Sistemi
+Oyuncular, her klinik adımda yönlendirici butonlar aracılığıyla seçimler yaparlar.  
+Seçimler şunları içerir:
 
-Unity: Oyun motoru olarak Unity kullanılmıştır.
+- Hangi testleri yapacağınız (kan sayımı, kolonoskopi, biyopsi, vb.)  
+- Hangi fizik muayeneleri uygulayacağınız (karın, cilt, eklem muayenesi)  
+- Hangi tanıyı koyacağınız  
+- Hangi tedavi planını uygulayacağınız  
 
-C#: Oyun kodlamasında C# dili kullanılmıştır.
+---
 
-Procreate: Oyun görselleri, özgün olarak Procreate uygulamasıyla hazırlanmıştır.
+### 2. Görsel Test Panelleri ve Mini Oyunlar
+Bazı tıbbi testler, etkileşimli mini oyunlarla sunulmuştur:
 
-Özellikler
-1. Interaktif Seçim Sistemi
+| Test | Etkileşim Türü |
+|------|----------------|
+| Kalprotektin Testi | Damlatıcıyı sürükleyip test kağıdına bırakma |
+| Kolonoskopi | Kamera ile bağırsak görüntülerini inceleme |
+| Biyopsi | Patoloji raporunun görsel gösterimi |
+| Ultrason | Cihazı hareket ettirerek iç yapıları görüntüleme |
+| Mikroskop | Hücreleri inceleme |
+| Kan Sayımı | Sayısal verileri gözden geçirme |
 
-Oyuncular, her klinik adımda yönlendirici butonlar aracılığıyla seçimler yaparlar. Seçilen adımlar:
+---
 
-Hangi testi yapacağınız (örneğin: kan sayımı, kolonoskopi, biyopsi, vs.),
+### 3. Puanlama Sistemi
+- Her seçim sahne arkasında puanlanır.  
+- Doğru adımlar daha yüksek puan getirir.  
+- Tanı, test sıralaması ve tedavi planı gibi kriterler başarı puanını etkiler.
 
-Hangi fizik muayeneleri yapacağınız (karın, cilt, eklem muayenesi),
+---
 
-Hangi tanıyı koyacağınız,
+## Eğitim Amacı
 
-Hangi tedavi planını seçebileceğiniz gibi seçenekleri içerir.
+Project Health sadece teorik bilgiyi değil, aynı zamanda şu becerileri de geliştirir:
 
-2. Görsel Test Panelleri ve Mini Oyunlar
+- Klinik karar verme  
+- Mantıksal çıkarım yapma  
+- Uygun test ve tedavi seçimi  
+- Tedavi sürecini yönetme  
 
-Bazı tıbbi testler, oyuncunun etkileşime girerek uygulayabileceği mini oyunlarla sunulmuştur:
+---
 
-Kalprotektin Testi: Damlatıcıyı sürükleyip test kağıdına bırakma.
+## Kullanıcı Geri Bildirim Sistemi
 
-Kolonoskopi: Kamera aracılığıyla bağırsak görüntülerini inceleme.
+Oyun, kullanıcıya her aşamada anlık geri bildirim sağlar.  
+Bu sayede oyuncu:
 
-Biyopsi Sonucu: Patoloji raporunun görsel gösterimi.
+- Doğru adımlarını görebilir  
+- Hatalı seçimlerde düzeltici öneriler alabilir  
+- Sürekli öğrenme sürecinde ilerleme kaydedebilir  
 
-Ultrason: Cihazı hareket ettirerek iç yapıları görüntüleme.
+---
 
-Mikroskop: Hücreleri inceleyerek mikroskop altı görüntüler.
+## Hedef Kitle
 
-Kan Sayımı: Sayısal verileri gözden geçirme.
+- Tıp öğrencileri  
+- Hemşirelik öğrencileri  
+- Sağlık yönetimi öğrencileri  
 
-3. Puanlama Sistemi
-
-Oyuncuların yaptığı her seçim, sahne arkasında puanlanır. Doğru klinik adımlar atıldıkça, oyuncu daha yüksek bir başarı puanı elde eder. Bu puanlar, doğru tanı koyma, uygun test sıralaması ve etkin tedavi planlaması ile ödüllendirilir.
-
-Eğitim Amacı
-
-Project Health, yalnızca teorik bilgiyi ölçmekle kalmaz, aynı zamanda:
-
-Klinik karar verme becerilerini geliştirir,
-
-Mantıksal çıkarım yapma yeteneğini güçlendirir,
-
-Test seçme, tedaviye yön verme ve tedavi sürecini yönetme becerilerini kazandırır.
-
-Kullanıcı Geri Bildirim Sistemi
-
-Oyun, kullanıcıya her aşamada geri bildirim sağlar. Bu geri bildirim, oyuncunun doğru adımları atıp atmadığını gösterir ve gerektiğinde düzeltici önerilerde bulunur. Bu sayede, oyuncuların klinik becerilerini geliştirmeleri hedeflenir.
-
-Hedef Kitle
-
-Tıp öğrencileri
-
-Hemşirelik öğrencileri
-
-Sağlık yönetimi öğrencileri
+---
